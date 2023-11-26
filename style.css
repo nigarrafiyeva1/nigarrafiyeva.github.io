@@ -1,0 +1,243 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #35a9bd;
+}
+
+header {
+    background-color: #4c7daf;
+    border-width: 10;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 35;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+
+
+.team-intro {
+    padding: 35px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 75px;
+    box-sizing: border-box;
+}
+
+
+h{
+    color: white;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section {
+    margin: 20px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.team-member-card {
+    border: 1px solid #ddd;
+    margin: 5px;
+    text-align: left;
+    border: 3px solid white;
+    position: relative;
+    padding: 50px;
+    top: 50px;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    animation: 
+        transitionIn 5s;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    animation-delay: 3s;
+}
+
+.team-member-card img {
+    width: 200px;
+    height: 300px; 
+    padding: 50px;
+    float: left;
+}
+.team-member-card img {
+    width: 135px;
+    height: 210px;
+}
+
+
+
+.team-member-card-2 {
+
+    color:white;
+    text-align: left;
+    border: 3px solid white;
+    position: relative;
+    padding: 50px;
+    top: 50px;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 50px;
+    animation: 
+        transitionIn 5s;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.team-member-card-2 img{
+    width: 200px;
+    height: 300px; 
+    padding: 50px;
+    float:right;
+    height: 80%;
+    margin-right: 10px;
+    padding-bottom: 0%;
+    object-position:0%;
+    object-position: top-left;
+    overflow: auto;
+
+}
+
+.team-member-card-2 ul{
+    float: left;
+    text-align: left;
+    overflow: auto;
+}
+.team-member-card-2 h4{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.team-member-card-2 h3{
+    text-align: center;
+    margin-top: 0%;
+}
+
+.team-member-card-2 li{
+    text-align: right;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+img {
+    width: 300px;
+    height: 150px;
+}
+
+
+.hour-of-code a {
+    background: #FFD17D;
+    border: 1px solid #FFD17D;
+    border-radius: 3px;
+    color: black;
+    display: inline-block;
+    margin-top: 75px;
+    padding: 1em;
+    max-width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    position: inherit;
+}
+.hour-of-code a:hover {
+    background: #007BFF;
+    border: 1px solid #4c7daf;
+    color: rgb(248, 248, 248);
+}
+
+
+.web-project ul {
+    background: #ffd17d !important;
+    border: 1px solid #ffd17d !important;
+    border-radius: 3px !important;
+    color: black !important;
+    display: inline-block !important;
+    margin-top: 75px !important;
+    padding: 1em !important;
+    max-width: 75% !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    position: inherit !important;
+}
+
+
+.return-button a {
+    background: #ffd17d;
+    border: 1px solid #ffd17d;
+    border-radius: 15px;;
+    color: black;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    position: relative;
+    z-index: 35;
+    padding: 40px 0px;
+    text-align: center;
+}
+.return-button a:hover {
+    background: #007BFF;
+    border: 1px solid #4c7daf;
+    color: rgb(248, 248, 248);
+}
+
+.hour-of-code {
+    text-align: center !important;
+    color: white !important;
+    font-weight: 300;
+}
+.page{
+    color: white !important;
+}
+
+.second-page{
+    margin: 20px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.team-member-card h3{
+    margin-top: 50px;
+}
+
+.team-member-card p {
+    margin-top: 25px;
+    margin-left: 5px; 
+}
+
+
+.team-intro img {
+    max-width: 200px;
+    max-height: 800px;
+}
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+@keyframes typing {
+    from {width: 0};
+}
